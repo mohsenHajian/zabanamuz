@@ -87,5 +87,5 @@ watch(
 </script>
 
 <template>
-    <div class="card">lets get started</div>
+    <div class="card">lets get started 1</div>
 </template>
