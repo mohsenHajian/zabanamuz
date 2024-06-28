@@ -1,9 +1,11 @@
 {
-    "rewrites": [
-        {
-            "source": "/:path*",
-            "destination": "/index.html"
+    "build": {
+        "env": {
+            "NODE_ENV": "production"
+        },
+        "commands": {
+            "prebuild": "chmod +x node_modules/.bin/vite",
+            "build": "npm run build"
         }
-    ],
-    "trailingSlash": false
+    }
 }
