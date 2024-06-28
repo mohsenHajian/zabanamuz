@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: $scale;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--surface-ground);
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+}
+
+.layout-wrapper {
+    min-height: 100vh;
+    direction: rtl;
+}
+
+td {
+    text-align: right;
+}
+
+.flex {
+    display: flex;
+}
+
+.loading-spinner-overlay,
+.overlay {
+    position: fixed;
+    z-index: 20000000000;
+    background-color: #00000075;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.overlay {
+    z-index: 1000;
+}
