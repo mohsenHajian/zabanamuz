@@ -1,5 +1,5 @@
 module.exports = {
-    content: ['../timeres_core/*.{js,vue,ts}', '../timeres_core/**/*.{js,vue,ts}', './components/**/*.{js,vue,ts}', './layouts/**/*.vue', './pages/**/*.vue', './plugins/**/*.{js,ts}'],
+    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
     theme: {
         extend: {
             colors: {

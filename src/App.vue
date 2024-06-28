@@ -6,4 +6,4 @@
     <div class="loading-spinner-overlay" v-show="$store.state.isLoadingSpinner"></div>
 </template>
 
-<style scoped></style>
+<style></style>
