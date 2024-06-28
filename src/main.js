@@ -18,7 +18,7 @@ import { globalMixin } from "../mixin/globalMixin";
 import BlockViewer from "@/components/BlockViewer.vue";
 
 import "@/assets/styles.scss";
-import "@/assets/_tailwind.css";
+import "@/assets/layout/_tailwind.css";
 
 // custom components
 import LoadingSpinner from "../components/Global/LoadingSpinner.vue";
